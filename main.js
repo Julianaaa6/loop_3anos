@@ -5,7 +5,7 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Quais as melhores marcas de roupa");
+    var respostaTime = prompt("Quais as melhores marcas de roupa?");
 
     
     if (respostaTime.toLowerCase() === " adidas e nike") {
