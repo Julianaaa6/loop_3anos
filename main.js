@@ -5,11 +5,11 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual o melhor time?");
+    var respostaTime = prompt("Quais as melhores marcas de roupa");
 
     
-    if (respostaTime.toLowerCase() === "Athlético PR") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === " adiddas e nike") {
+      alert("Isso mesmo! Adidas e Nike sao as melhores marca!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
